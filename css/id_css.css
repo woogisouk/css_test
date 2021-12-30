@@ -1,0 +1,48 @@
+/* id선택자와 class선택자 css파일*/
+
+#position {
+    color:red;
+    font-weight:bold;
+    font-size:40px;
+}
+
+#position2 {/* id선택자와
+ㄹㅇㅁㄻㄴㅇ
+ㄻㄴ
+class선택자 css파일*/
+    color:blue;
+    font-weight:bold;
+    font-size:40px
+}
+
+p {
+    color:gray;
+    font-size:30px;
+}
+
+.red {
+    color:red;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+h1.redh1 {
+    color:red;
+    font-size:50px;
+}
+
+h1.blueh1 {
+    color:blue;
+    font-size:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
