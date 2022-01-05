@@ -11,6 +11,7 @@
 
         ul {
             list-style-type:none;
+<!--            padding-bottom:5px;-->
         }
 
         h3 {
@@ -18,7 +19,7 @@
            }
 
         #member_form{
-            width:500px;
+            width:600px;
             margin:10px 0 0 50px;
             color:gray;
             font-family:"맑은 고딕";
@@ -28,62 +29,83 @@
             padding:10px 0px 10px 0px;
         }
 
+        .cols li{
+            display:inline-block;
+            margin-top:5px;
+        }
+
+        .cols li.col1 {
+            width:100px;
+            text-align:right;
+            font-weight:bold;
+        }
+        .cols li.col2 {
+            width:400px;
+        }
+
+        .cols li.col2 input.phone {
+            width:40px;
+        }
+
+        #intro {
+            vertical-align:top;
+        }
 
     </style>
 </head>
 <body>
 <h3>회원 가입 양식</h3>
 <form>
-    <div style="">
+    <div>
         <ul id="member_form">
             <li>
-                <ul>
-                    <li>아이디</li>
-                    <li><input type="text"></li>
+                <ul class="cols">
+                    <li class="col1">아이디</li>
+                    <li class="col2"><input type="text"></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>비밀번호</li>
-                    <li><input type="text"></li>
+                <ul class="cols">
+                    <li class="col1">비밀번호</li>
+                    <li class="col2"><input type="text"></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>비밀번호확인</li>
-                    <li><input type="text"></li>
+                <ul class="cols">
+                    <li class="col1">비밀번호확인</li>
+                    <li class="col2"><input type="text"></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>이름</li>
-                    <li><input type="text"></li>
+                <ul class="cols">
+                    <li class="col1">이름</li>
+                    <li class="col2"><input type="text"></li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>성별</li>
-                    <li><input type="radio" name="gender" selected="true"> 여성
+                <ul class="cols">
+                    <li class="col1">성별</li>
+                    <li class="col2"><input type="radio" name="gender" checked> 여성
                     <input type="radio" name="gender"> 남성
                     </li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>휴대전화</li>
-                    <li>
+                <ul class="cols">
+                    <li class="col1">휴대전화</li>
+                    <li class="col2">
                         <select>
                             <option>010</option>
                             <option>011</option>
                             <option>017</option>
-                        </select> - <input type="text"> - <input type="text">
+                        </select> - <input class="phone" type="text"> - <input class="phone" type="text">
                     </li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>이메일</li>
-                    <li><input type="text"> @
+                <ul class="cols">
+                    <li class="col1">이메일</li>
+                    <li class="col2"><input type="text"> @
                         <select>
                             <option>선택</option>
                             <option>naver.com</option>
@@ -94,9 +116,9 @@
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>취미</li>
-                    <li>
+                <ul class="cols">
+                    <li class="col1">취미</li>
+                    <li class="col2">
                         <input type="checkbox" name="hobby1"> 음악감상
                         <input type="checkbox" name="hobby2"> 독서
                         <input type="checkbox" name="hobby3"> 등산
@@ -104,17 +126,17 @@
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>자기소개</li>
-                    <li>
+                <ul class="cols">
+                    <li class="col1" id="intro">자기소개</li>
+                    <li class="col2">
                         <textarea cols="35" rows="5"></textarea>
                     </li>
                 </ul>
             </li>
             <li>
-                <ul>
-                    <li>파일첨부</li>
-                    <li>
+                <ul class="cols">
+                    <li class="col1">파일첨부</li>
+                    <li class="col2">
                         <input type="file"> * 2M 까지 가능
                     </li>
                 </ul>
