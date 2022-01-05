@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        table {
+            border-collapse:collapse;
+            width:500px;
+        }
+        .tbl th, td {
+            border:solid 1px #cccccc;
+            padding-left:10px;
+            padding-right:10px;
+            text-align:center;
+        }
+
+        .tit_tr {
+            height:30px;
+            background-color:#dddddd;
+        }
+
+        #tr_num{ width:60px; }
+
+        .so_sum{ width:120px; }
+
+        .td_bgc{background-color:#eeeeee;
+            text-decoration:underline;
+            font-weight:bold;
+            color:red;
+        }
+        #tr_bgc{background-color:#dddddd;}
+
+    </style>
+</head>
+<body>
+    <h1>111111111</h1>
+<table class="tbl">
+    <tr class="tit_tr">
+        <th id="tr_num">번호</th>
+        <th>출발</th>
+        <th>도착</th>
+        <th>특실</th>
+        <th>일반</th>
+        <th class="so_sum">시간</th>
+    </tr>
+    <tr>
+        <td class="td_bgc">175</td>
+        <td>서울<br>21:00</td>
+        <td>부산<br>23:44</td>
+        <td><img src="img/pull.png"> </td>
+        <td><img src="img/pull.png"> </td>
+        <td>02:44</td>
+    </tr>
+    <tr>
+        <td class="td_bgc">177</td>
+        <td>서울<br>21:30</td>
+        <td>부산<br>00:08</td>
+        <td><img src="img/empty.png"> </td>
+        <td><img src="img/empty.png"> </td>
+        <td>02:38</td>
+    </tr>
+    <tr>
+        <td class="td_bgc">178</td>
+        <td>서울<br>22:00</td>
+        <td>부산<br>00:42</td>
+        <td><img src="img/pull.png"> </td>
+        <td><img src="img/empty.png"> </td>
+        <td>02:33</td>
+    </tr>
+</table>
+</body>
+</html>
