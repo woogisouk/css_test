@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인창</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+
+        #login_box {
+            width:220px;
+            height:120px;
+            border:solid 1px #cccccc;
+            border-radius:10px;
+            padding:10px 0 0 10px;
+            margin:10px 0 0 10px;
+        }
+
+        h2 {
+            margin-bottom:10px;
+        }
+
+        #id_pass {
+            display:inline-block;
+<!--            vertical-align:top;-->
+        }
+
+        #login_btn {
+            display:inline-block;
+<!--            vertical-align:top;-->
+        }
+
+        #login_box input {
+            width:100px;
+            height:18px;
+        }
+
+        #id_pass span {
+            display:inline-block;
+            width:20px;
+        }
+
+        #login_btn button {
+            border-radius:5px;
+            padding:12px;
+            margin-left:5px;
+        }
+
+        ul {
+            list-style-type:none;
+        }
+
+        #pass {
+            margin-top:3px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <div id="login_box">
+            <h2>Member Login</h2>
+            <ul>
+                <li id="id_pass">
+                    <ul>
+                        <li >
+                            <span>ID</span>
+                            <input type="text">
+                        </li>
+                        <li id="pass">
+                            <span>PW</span>
+                            <input type="password">
+                        </li>
+                    </ul>
+                </li>
+                <li id="login_btn">
+                    <button>로그인</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
