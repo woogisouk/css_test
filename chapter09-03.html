@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>회원-------가입</title>
+    <style>
+      * {
+            margin:0;
+            padding:0;
+        }
+
+        ul {
+            list-style-type:none;
+        }
+
+        h3 {
+            margin:20px 0 0 50px;
+           }
+
+        #member_form{
+            width:500px;
+            margin:10px 0 0 50px;
+            color:gray;
+            font-family:"맑은 고딕";
+            font-size:12px;
+            border-top:solid 1px;
+            border-bottom:solid 1px;
+            padding:10px 0px 10px 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+<h3>회원 가입 양식</h3>
+<form>
+    <div style="">
+        <ul id="member_form">
+            <li>
+                <ul>
+                    <li>아이디</li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>비밀번호</li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>비밀번호확인</li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>이름</li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>성별</li>
+                    <li><input type="radio" name="gender" selected="true"> 여성
+                    <input type="radio" name="gender"> 남성
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>휴대전화</li>
+                    <li>
+                        <select>
+                            <option>010</option>
+                            <option>011</option>
+                            <option>017</option>
+                        </select> - <input type="text"> - <input type="text">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>이메일</li>
+                    <li><input type="text"> @
+                        <select>
+                            <option>선택</option>
+                            <option>naver.com</option>
+                            <option>daum.net</option>
+                            <option>gmail.com</option>
+                        </select>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>취미</li>
+                    <li>
+                        <input type="checkbox" name="hobby1"> 음악감상
+                        <input type="checkbox" name="hobby2"> 독서
+                        <input type="checkbox" name="hobby3"> 등산
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>자기소개</li>
+                    <li>
+                        <textarea cols="35" rows="5"></textarea>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>파일첨부</li>
+                    <li>
+                        <input type="file"> * 2M 까지 가능
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</form>
+</body>
+</html>
