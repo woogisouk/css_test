@@ -1,0 +1,32 @@
+
+        #footer_page{
+            width:1000px;
+            margin:0 auto;
+        }
+        footer #company{
+            float:left;
+        }
+        footer #site_link{
+            float:right;
+        }
+        footer #company_info{
+            margin-top:25px;
+        }
+        footer{
+            border-top:solid 3px #06b5b8;
+            padding:20px 0 0 15px;
+        }
+        footer #copyright {
+            font-size:11px;
+            color:#888888;
+        }
+        footer #site_link select{
+            width:100px;
+            float:right;
+            margin-top:5px;
+            margin-right:15px;
+        }
+        footer #icons{
+            float:right;
+            margin-top:5px;
+        }

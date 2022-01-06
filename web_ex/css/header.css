@@ -1,0 +1,46 @@
+
+        #header_page{
+            width:1000px;
+            margin:0 auto;
+        }
+        .line{
+            border-bottom:solid 1px #cccccc;
+            margin-top:20px;
+        }
+        #top_menu {
+            border:1px solid red;
+            width:270px;
+            float:right;
+            margin-top:20px;
+        }
+        #top_menu li{
+            display:inline;
+            margin:50px 10px 0 0;
+        }
+        #mainMenu {
+            border:1px solid red;
+            width:300px;
+        }
+        #mainMenu li{
+            display:inline;
+            padding:5px;
+        }
+
+        header #logo{
+            float:left;
+            margin:15px 0 0 20px;
+        }
+        header #moto{
+            float:left;
+            margin:45px 0 0 20px;
+        }
+        header #mainMenu{
+            display:inline;
+        }
+        header li.item{
+            margin-right:27px;
+        }
+
+        header #mainMenu{
+            margin-top:20px;
+        }

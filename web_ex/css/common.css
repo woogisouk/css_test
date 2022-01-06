@@ -7,3 +7,7 @@
         }
         .clear{clear:both;
         }
+        .line{
+            border-bottom:solid 1px #cccccc;
+            margin-top:20px;
+        }

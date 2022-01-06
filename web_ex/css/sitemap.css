@@ -1,0 +1,27 @@
+
+        #main_page{
+            width:1000px;
+            margin:0 auto;
+        }
+        #sitemap{
+            margin-top:10px;
+        }
+        div{
+            width:150px;
+        }
+        #sitemap div {
+            float:left;
+            margin-right:10px;
+        }
+        #sitemap h3{
+            font-size:15px;
+            color:#12b9b2;
+            margin-left:10px;
+        }
+        #sitemap ul {
+            color:#666666;
+        }
+        #sitemap li{
+            list-style-image:url('img/blue_dot.gif');
+            margin-left:10px;
+        }
