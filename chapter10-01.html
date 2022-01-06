@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #parent{
+            width: 500px;
+            height: 300px;
+            border: 5px solid gray;
+            margin:100px 0 0 100px;
+        }
+        #box1{
+            width: 80px;
+            height: 80px;
+            background-color:red;
+        }
+        #box2{
+            width: 80px;
+            height: 80px;
+            background-color:green;
+        }
+        #box3{
+            width: 80px;
+            height: 80px;
+            background-color:blue;
+        }
+
+        #parent {
+            position: relative;
+
+        }
+
+        #box2{
+            position: absolute;
+            top: 20px;
+            left: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+<form>
+    <div id="parent">
+        <div id="box1">A</div>
+        <div id="box2">B</div>
+        <div id="box3">C</div>
+    </div>
+</form>
+</body>
+</html>
