@@ -7,7 +7,7 @@
             margin-top:10px;
         }
         div{
-            width:150px;
+         /*   width:150px;*/
         }
         #sitemap div {
             float:left;
@@ -22,6 +22,12 @@
             color:#666666;
         }
         #sitemap li{
-            list-style-image:url('img/blue_dot.gif');
+            list-style-image:url('../img/blue_dot.gif');
             margin-left:10px;
+        }
+
+        #sitemap_box{
+            border:solid 1px;
+            margin:0 0 10px 50px;
+            padding:10px;
         }

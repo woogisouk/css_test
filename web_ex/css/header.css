@@ -8,7 +8,7 @@
             margin-top:20px;
         }
         #top_menu {
-            border:1px solid red;
+        /*    border:1px solid red;*/
             width:270px;
             float:right;
             margin-top:20px;
@@ -18,7 +18,7 @@
             margin:50px 10px 0 0;
         }
         #mainMenu {
-            border:1px solid red;
+        /*    border:1px solid red;*/
             width:300px;
         }
         #mainMenu li{
@@ -44,3 +44,4 @@
         header #mainMenu{
             margin-top:20px;
         }
+
